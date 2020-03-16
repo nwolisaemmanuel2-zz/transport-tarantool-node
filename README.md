@@ -63,3 +63,4 @@ This is the most common use case, but you can play with `socket` in any way, at 
 ## Inner variables
 
 For those who want to hack Transport — list of inner variables:
+- `socket` — `net` socket or Object you passed to constructor
