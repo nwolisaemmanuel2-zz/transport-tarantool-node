@@ -50,3 +50,5 @@ Before reading source please note that:
 - Tarantool allows to set `request_id`. Server will just white this value into `response`, it won't check or compare it with anything. In `transport` we call this field `callback_id` — we pass callbacks and one response calls means one callback here.
 
 ## Interaction with Socket
+
+Constructed `transport` sets up `socket` in this way:
