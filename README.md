@@ -44,3 +44,5 @@ transport = Transport.connect port, host, -> # on connection
 # Hacking
 
 ## Implementation notes
+
+Before reading source please note that:
