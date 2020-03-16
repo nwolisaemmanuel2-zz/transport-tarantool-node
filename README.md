@@ -39,3 +39,4 @@ transport = Transport.connect port, host, -> # on connection
 # socket = net.connect port, host, ->
 #     # on connection
 # transport = new Transport socket
+```
