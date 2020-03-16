@@ -46,3 +46,4 @@ transport = Transport.connect port, host, -> # on connection
 ## Implementation notes
 
 Before reading source please note that:
+- In Tarantool, request and response headers are sequences of unsigned little-endian 32-bit integers.
