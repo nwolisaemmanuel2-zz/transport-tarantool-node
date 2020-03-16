@@ -11,3 +11,4 @@ npm install tarantool-transport
 ```
 ## API and usage
 Call `Transport.connect port, host, callback` or `new Transport socket` to instantiate `transport`.
+First way is common and preferrable while second allows to prepare `socket`, mock it or hack it.
