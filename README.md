@@ -70,3 +70,4 @@ For those who want to hack Transport — list of inner variables:
 - `responsesAwaiting` — non-negative Number, incremented on request,decremented on response, stored to know when `ref()` and `unref()` the `socket`
 
 ## Bugs and issues
+Bug reports and pull requests are welcome.
