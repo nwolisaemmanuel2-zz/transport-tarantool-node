@@ -20,3 +20,5 @@ Call `transport.request type, body, callback` to send request.
 - `callback` will receive response body as Buffer, maybe empty, never `null` or `undefined`.
 
 **All arguments are obligatory.**
+
+### Example
