@@ -5,3 +5,5 @@ Transport incapsulates socket, manages callbacks, composes request headers, pars
 **Use [Connector]()** as a high-level driver or create your own.
 
 ## NPM
+
+```shell
