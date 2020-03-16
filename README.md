@@ -47,3 +47,4 @@ transport = Transport.connect port, host, -> # on connection
 
 Before reading source please note that:
 - In Tarantool, request and response headers are sequences of unsigned little-endian 32-bit integers.
+- Tarantool allows to set `request_id`. Server will just white this value 
