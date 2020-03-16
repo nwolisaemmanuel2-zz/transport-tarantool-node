@@ -52,3 +52,4 @@ Before reading source please note that:
 ## Interaction with Socket
 
 Constructed `transport` sets up `socket` in this way:
+- `socket.unref()` to let `node.js` exit if we're not awaiting responses
