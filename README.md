@@ -27,3 +27,5 @@ Call `transport.request type, body, callback` to send request.
 Transport = require 'tarantool-transport'
 
 PING = 0xFF00 # ping request type
+
+transport = Transport.connect port, host, -> # on connection
