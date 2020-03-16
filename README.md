@@ -22,3 +22,5 @@ Call `transport.request type, body, callback` to send request.
 **All arguments are obligatory.**
 
 ### Example
+
+```coffee
