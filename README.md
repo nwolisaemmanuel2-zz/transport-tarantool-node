@@ -61,3 +61,5 @@ Constructed `transport` sets up `socket` in this way:
 This is the most common use case, but you can play with `socket` in any way, at your own risk.
 
 ## Inner variables
+
+For those who want to hack Transport — list of inner variables:
