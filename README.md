@@ -29,3 +29,4 @@ Transport = require 'tarantool-transport'
 PING = 0xFF00 # ping request type
 
 transport = Transport.connect port, host, -> # on connection
+transport.request PING, '', -> # on response
