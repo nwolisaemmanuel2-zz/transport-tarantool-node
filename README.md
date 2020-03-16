@@ -56,4 +56,4 @@ Constructed `transport` sets up `socket` in this way:
 - `socket.setNoDelay()` to reduce latency (added in 0.2.3)
 - `socket.on('data', cb)` to parse and process responses
 
-`transport` does `socket.ref()` on request and `socket.unref()` on last
+`transport` does `socket.ref()` on request and `socket.unref()` on last awaited response. Thus, `socket` prevents `node.js` from shutting down 
