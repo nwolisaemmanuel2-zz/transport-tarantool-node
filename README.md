@@ -38,3 +38,4 @@ transport = Transport.connect port, host, -> # on connection
 # net = require 'net'
 # socket = net.connect port, host, ->
 #     # on connection
+# transport = new Transport socket
