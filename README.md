@@ -37,3 +37,4 @@ transport = Transport.connect port, host, -> # on connection
 # the other way, if you want to prepare socket somehow
 # net = require 'net'
 # socket = net.connect port, host, ->
+#     # on connection
