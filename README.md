@@ -7,3 +7,4 @@ Transport incapsulates socket, manages callbacks, composes request headers, pars
 ## NPM
 
 ```shell
+npm install tarantool-transport
