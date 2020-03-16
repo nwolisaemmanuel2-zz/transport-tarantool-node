@@ -65,3 +65,4 @@ This is the most common use case, but you can play with `socket` in any way, at 
 For those who want to hack Transport — list of inner variables:
 - `socket` — `net` socket or Object you passed to constructor
 - `remainder` — Buffer, will prepend next data chunk in order to compose responses from several data packets
+- `callbacks` — Hash (Object), keys are numeric response ids, values are passed callbacks
