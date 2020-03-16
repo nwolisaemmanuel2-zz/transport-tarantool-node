@@ -16,3 +16,4 @@ First way is common and preferrable while second allows to prepare `socket`, moc
 Call `transport.request type, body, callback` to send request.
 
 - `type` must be Number, any [valid request type](https://github.com/mailru/tarantool/blob/master/doc/box-protocol.txt#L46): 0x0D, 0x11, 0x13, 0x15, 0x16 or 0xFF00.
+- `body` must be Buffer (preferrable) or String (empty string is usable, see example below).
