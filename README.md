@@ -10,3 +10,4 @@ Transport incapsulates socket, manages callbacks, composes request headers, pars
 npm install tarantool-transport
 ```
 ## API and usage
+Call `Transport.connect port, host, callback` or `new Transport socket` to instantiate `transport`.
