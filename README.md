@@ -40,3 +40,5 @@ transport = Transport.connect port, host, -> # on connection
 #     # on connection
 # transport = new Transport socket
 ```
+
+# Hacking
