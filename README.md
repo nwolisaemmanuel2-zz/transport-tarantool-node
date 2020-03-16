@@ -25,3 +25,5 @@ Call `transport.request type, body, callback` to send request.
 
 ```coffee
 Transport = require 'tarantool-transport'
+
+PING = 0xFF00 # ping request type
