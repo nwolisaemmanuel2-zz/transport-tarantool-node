@@ -66,4 +66,4 @@ For those who want to hack Transport — list of inner variables:
 - `socket` — `net` socket or Object you passed to constructor
 - `remainder` — Buffer, will prepend next data chunk in order to compose responses from several data packets
 - `callbacks` — Hash (Object), keys are numeric response ids, values are passed callbacks
-- `nextCallbackId` — non-negative Number, incremented on request, when 
+- `nextCallbackId` — non-negative Number, incremented on request, when reaches 4294967296 overflows to 0, you can use it to describe request 
