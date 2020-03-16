@@ -8,3 +8,4 @@ Transport incapsulates socket, manages callbacks, composes request headers, pars
 
 ```shell
 npm install tarantool-transport
+```
