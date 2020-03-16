@@ -58,4 +58,4 @@ Constructed `transport` sets up `socket` in this way:
 
 `transport` does `socket.ref()` on request and `socket.unref()` on last awaited response. Thus, `socket` prevents `node.js` from shutting down until it receives all responses.
 
-This is the most common use case, but you can play with `socket` in any 
+This is the most common use case, but you can play with `socket` in any way, at your own risk.
