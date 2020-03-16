@@ -54,3 +54,4 @@ Before reading source please note that:
 Constructed `transport` sets up `socket` in this way:
 - `socket.unref()` to let `node.js` exit if we're not awaiting responses
 - `socket.setNoDelay()` to reduce latency (added in 0.2.3)
+- `socket.on('data', cb)` to parse and process responses
