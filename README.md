@@ -33,3 +33,5 @@ transport = Transport.connect port, host, -> # on connection
         console.log 'got ping response'
     
     console.log 'sent ping request'
+    
+# the other way, if you want to prepare socket somehow
