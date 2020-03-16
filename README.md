@@ -68,3 +68,5 @@ For those who want to hack Transport — list of inner variables:
 - `callbacks` — Hash (Object), keys are numeric response ids, values are passed callbacks
 - `nextCallbackId` — non-negative Number, incremented on request, when reaches 4294967296 overflows to 0, you can use it to describe request frequency
 - `responsesAwaiting` — non-negative Number, incremented on request,decremented on response, stored to know when `ref()` and `unref()` the `socket`
+
+## Bugs and issues
