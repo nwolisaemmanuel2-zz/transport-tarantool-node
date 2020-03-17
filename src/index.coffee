@@ -7,7 +7,6 @@ OFFSET =
 
 HEADER_LENGTH = 12
 
-
 composeHeader = (requestType, bodyLength, callbackId) ->
     header = new Buffer HEADER_LENGTH
 
