@@ -10,6 +10,7 @@ exports['connect'] = (test) ->
 exports['ping'] = (test) ->
     test.expect 3
     transport = Transport.connect 33013, 'localhost', ->
+        test.doesNotThrow ->
 
 
 exports['partial responses'] = (test) ->
