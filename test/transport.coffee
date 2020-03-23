@@ -36,6 +36,7 @@ exports['partial responses'] = (test) ->
     transport.request PING, '', (response) ->
         test.done()
     
- 
+    firstChunk = new Buffer [0, 255, 0, 0, 0, 0] # 6
+    
     
     
