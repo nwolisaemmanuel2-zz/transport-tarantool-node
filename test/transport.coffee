@@ -38,6 +38,8 @@ exports['partial responses'] = (test) ->
     
     firstChunk = new Buffer [0, 255, 0, 0, 0, 0] # 6
     secondChunk = new Buffer [0, 0, 0, 0, 0, 0, 0, 255] # 8
+    thirdChunk = new Buffer [0, 0, 0, 0, 0, 0, 1, 0, 0, 0] # 10
     
+  
     
     
