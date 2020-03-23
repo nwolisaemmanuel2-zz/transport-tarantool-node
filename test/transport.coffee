@@ -12,6 +12,7 @@ exports['ping'] = (test) ->
     transport = Transport.connect 33013, 'localhost', ->
         test.doesNotThrow ->
             transport.request PING, '', (response) ->
+                test.ok Buffer.isBuffer response
 
 
 exports['partial responses'] = (test) ->
