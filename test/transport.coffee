@@ -4,7 +4,8 @@ PING = 65280
 exports['connect'] = (test) ->
     test.expect 1
     test.doesNotThrow ->
-      
+        Transport.connect 33013, 'localhost', ->
+
 
 exports['partial responses'] = (test) ->
     test.expect 2
