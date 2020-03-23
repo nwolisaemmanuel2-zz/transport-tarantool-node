@@ -1,3 +1,4 @@
+Transport = require '../src'
 
 
 exports['partial responses'] = (test) ->
