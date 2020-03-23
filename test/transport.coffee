@@ -41,7 +41,8 @@ exports['partial responses'] = (test) ->
     thirdChunk = new Buffer [0, 0, 0, 0, 0, 0, 1, 0, 0, 0] # 10
       mySocket.writeBack firstChunk
         test.equal transport.remainder, firstChunk
-    
+    mySocket.writeBack secondChunk
+   
     
     
   
