@@ -8,6 +8,7 @@ exports['connect'] = (test) ->
             test.done()
 
 exports['ping'] = (test) ->
+    test.expect 3
 
 
 exports['partial responses'] = (test) ->
