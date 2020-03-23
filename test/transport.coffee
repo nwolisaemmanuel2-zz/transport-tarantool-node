@@ -1,6 +1,8 @@
 Transport = require '../src'
 PING = 65280
 
+exports['connect'] = (test) ->
+
 
 exports['partial responses'] = (test) ->
     test.expect 2
