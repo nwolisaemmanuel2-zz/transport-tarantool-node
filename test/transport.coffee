@@ -37,6 +37,7 @@ exports['partial responses'] = (test) ->
         test.done()
     
     firstChunk = new Buffer [0, 255, 0, 0, 0, 0] # 6
+    secondChunk = new Buffer [0, 0, 0, 0, 0, 0, 0, 255] # 8
     
     
     
