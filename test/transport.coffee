@@ -1,5 +1,4 @@
 Transport = require '../src'
-
 PING = 65280
 
 exports['connect'] = (test) ->
