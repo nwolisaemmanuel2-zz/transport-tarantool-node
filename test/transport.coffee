@@ -44,6 +44,7 @@ exports['partial responses'] = (test) ->
     mySocket.writeBack secondChunk
     test.equal transport.remainder.toString(), new Buffer([0, 255]).toString()
     
+    mySocket.writeBack thirdChunk
     
     
   
