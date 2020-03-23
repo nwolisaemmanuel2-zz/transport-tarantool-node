@@ -5,6 +5,7 @@ exports['connect'] = (test) ->
     test.expect 1
     test.doesNotThrow ->
         Transport.connect 33013, 'localhost', ->
+            test.done()
 
 
 exports['partial responses'] = (test) ->
