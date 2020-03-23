@@ -1,4 +1,5 @@
 Transport = require '../src'
+PING = 65280
 
 
 exports['partial responses'] = (test) ->
