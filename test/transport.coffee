@@ -2,9 +2,15 @@ Transport = require '../src'
 PING = 65280
 
 exports['connect'] = (test) ->
+    
+    
     test.expect 1
+    
+    
     test.doesNotThrow ->
-        Transport.connect 33013, 'localhost', ->
+    
+    
+    Transport.connect 33013, 'localhost', ->
             test.done()
             
 exports['ping'] = (test) ->
