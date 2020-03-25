@@ -7,7 +7,6 @@ exports['connect'] = (test) ->
         Transport.connect 33013, 'localhost', ->
             test.done()
             
-
 exports['ping'] = (test) ->
     test.expect 3
     transport = Transport.connect 33013, 'localhost', ->
