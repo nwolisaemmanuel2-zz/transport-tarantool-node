@@ -1,4 +1,3 @@
-
 Transport = require '../src'
 PING = 65280
 
