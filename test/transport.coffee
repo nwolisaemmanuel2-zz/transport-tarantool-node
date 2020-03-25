@@ -9,7 +9,6 @@ exports['connect'] = (test) ->
     
     test.doesNotThrow ->
     
-    
     Transport.connect 33013, 'localhost', ->
             test.done()
             
