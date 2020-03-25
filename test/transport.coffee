@@ -16,8 +16,7 @@ exports['ping'] = (test) ->
                 test.equals response.length, 0
                 test.done()
 
-
- exports['partial responses'] = (test) ->
+exports['partial responses'] = (test) ->
     test.expect 2
     
     mySocket =
