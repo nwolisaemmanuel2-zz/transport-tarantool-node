@@ -101,4 +101,5 @@ class TarantoolTransport
         @socket.write body
         return
 
-module.exports = TarantoolTransport
+
+    module.exports = TarantoolTransport
