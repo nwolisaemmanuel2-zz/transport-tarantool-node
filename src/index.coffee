@@ -102,4 +102,4 @@ class TarantoolTransport
         return
 
 
-    module.exports = TarantoolTransport
+  module.exports = TarantoolTransport
