@@ -1,4 +1,3 @@
-
 net = require 'net'
 
 OFFSET =
