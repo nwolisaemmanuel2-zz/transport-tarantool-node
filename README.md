@@ -21,7 +21,7 @@ Call `transport.request type, body, callback` to send request.
 
 **All arguments are obligatory.**
 
-### Example
+### Examples
 
 ```coffee
 Transport = require 'tarantool-transport'
